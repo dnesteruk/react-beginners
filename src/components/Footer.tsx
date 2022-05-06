@@ -3,5 +3,5 @@ type FooterProps = {
 }
 
 export const Footer: React.FC<FooterProps> = (props) => (
-    <footer>Footer component {props.copyright}</footer>
+    <footer className="footer container-fluid">{props.copyright}</footer>
 )

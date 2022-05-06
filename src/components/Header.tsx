@@ -3,5 +3,5 @@ type HeaderProps = {
 }
 
 export const Header: React.FC<HeaderProps> = (props) => (
-    <header>Header component {props.slogan}</header>
+    <header>{props.slogan}</header>
 )
